@@ -1,0 +1,11 @@
+typoscan is a utility to create to-do lists from Wikipedia
+dumps for AutoWikiBrowser.
+
+It retrieves a list of regular expressions to scan for from
+http://en.wikipedia.org/wiki/WP:AWB/T, reads a dump file on
+STDIN, and outputs a list of all page titles that match on
+any of the regular expressions to STDOUT.  Diagnostic output
+is directed to STDERR.
+
+AWB ignores some article parts like <nowiki> tags, so there
+may be false positives.

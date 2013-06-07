@@ -1,0 +1,14 @@
+/.deps
+/Makefile
+/Makefile.in
+/aclocal.m4
+/autom4te.cache
+/config.log
+/config.status
+/configure
+/dumpscanner.c
+/dumpscanner.o
+/typolist.c
+/typolist.o
+/typoscan
+/typoscan.o
