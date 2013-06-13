@@ -1,0 +1,37 @@
+# Test suite for typoscan.
+
+# This file is part of typoscan.
+
+# typoscan is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation,
+# either version 3 of the License, or (at your option) any
+# later version.
+
+# typoscan is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+# PURPOSE.  See the GNU General Public License for more
+# details.
+
+# You should have received a copy of the GNU General Public
+# License along with typoscan.  If not, see
+# <http://www.gnu.org/licenses/>.
+
+# Initialize autotest.
+AT_INIT()
+AT_COPYRIGHT([Tim Landscheidt])
+AT_COLOR_TESTS()
+
+# Define test.
+m4_define([AT_TYPOSCAN_CHECK],
+[AT_SETUP([Test: $1.xml])
+AT_CHECK([$abs_top_builddir/typoscan --typos-pattern-file $srcdir/typos-patterns.wiki < $srcdir/"$1".xml], [0], [$1
+], [])
+AT_CLEANUP()
+])
+
+# Test typos pattern matches.
+AT_BANNER([Typos pattern matches])
+
+m4_map_args([AT_TYPOSCAN_CHECK], [Abraham Lincoln], [Academy Award for Best Production Design], [Academy Award], [Alabama], [Alchemy], [Algeria], [Altruism], [Anarchism], [Anthropology], [Autism], [Ayn Rand])

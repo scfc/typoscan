@@ -1,0 +1,352 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.22wmf2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Altruism</title>
+    <ns>0</ns>
+    <id>336</id>
+    <revision>
+      <id>552913208</id>
+      <parentid>552805542</parentid>
+      <timestamp>2013-04-30T17:24:44Z</timestamp>
+      <contributor>
+        <username>DrChrissy</username>
+        <id>14101812</id>
+      </contributor>
+      <comment>Replaced See also - not an edit war, please see Talk page</comment>
+      <text xml:space="preserve">{{See also|Altruism in animals}}
+[[File:Belisaire demandant l'aumone Jacques-Louis David.jpg|thumb|325px|Giving [[alms]] to the poor is often considered an altruistic action in many cultures and religions.]]
+
+'''Altruism''' or '''selflessness''' is the principle or practice of concern for the [[Quality of life|welfare]] of others. It is a traditional [[virtue]] in many cultures and a core aspect of various religious traditions, though the concept of &quot;others&quot; toward whom concern should be directed can vary among cultures and religions. Altruism or selflessness is the opposite of [[selfishness]].
+
+Altruism can be distinguished from feelings of [[duty]] and [[loyalty]]. Altruism is a motivation to provide something of value to a party who must be anyone but one's self, while duty focuses on a [[moral obligation]] towards a specific individual (e.g., a [[god]], a [[monarch|king]]), or collective (e.g., a [[government]]). Pure altruism consists of sacrificing something for someone other than the self (e.g. sacrificing time, energy or possessions) with no expectation of any compensation or benefits, either direct, or indirect (e.g., receiving recognition for the act of giving). 
+
+Much debate exists as to whether ''&quot;true&quot;'' altruism is possible. The theory of [[psychological egoism]] suggests that no act of sharing, helping or sacrificing can be described as truly altruistic, as the actor may receive an [[intrinsic]] reward in the form of personal [[gratification]]. The validity of this argument depends on whether intrinsic rewards qualify as &quot;benefits.&quot; 
+
+The term ''altruism'' may also refer to an [[altruism (ethics)|ethical doctrine]] that claims that individuals are morally obliged to benefit others. Used in this sense, it's usually contrasted to [[ethical egoism|egoism]], which is defined as acting to the benefit of one's self.
+
+==The notion of altruism==
+The concept has a long history in [[Philosophy|philosophical]] and [[Ethics|ethical]] thought. The term was originally coined in the 19th century by the founding [[sociologist]] and [[philosopher of science]], [[Auguste Comte]], and has become a major topic for [[psychologists]] (especially [[evolutionary psychology]] researchers), [[evolutionary biologists]], and [[ethology|ethologists]]. Whilst ideas about altruism from one field can have an impact on the other fields, the different methods and focuses of these fields always lead to different perspectives on altruism. In simple terms, altruism is caring about the welfare of other people and acting to help them.
+
+==Scientific viewpoints==
+
+===Anthropology===
+[[Marcel Mauss]]'s book ''The Gift'' contains a passage: &quot;Note on alms.&quot; This note describes the evolution of the notion of alms (and by extension of altruism) from the notion of sacrifice. In it, he writes:
+
+&lt;blockquote&gt;Alms are the fruits of a moral notion of the gift and of fortune on the one hand,
+and of a notion of sacrifice, on the other. Generosity is an obligation, because Nemesis
+avenges the poor and the gods for the superabundance of happiness and wealth
+of certain people who should rid themselves of it. This is the ancient morality of the
+gift, which has become a principle of justice. The gods and the spirits accept that
+the share of wealth and happiness that has been offered to them and had been
+hitherto destroyed in useless sacrifices should serve the poor and children.&lt;/blockquote&gt;
+
+* Compare [[altruism (ethics)|Altruism (ethics) – perception of altruism as self-sacrifice]].
+* Compare [[alms|explanation of alms in various scriptures]].
+
+===Evolutionary explanations===
+{{Main|Altruism in animals|Evolution of morality|Evolutionary ethics|Evolutionary psychology of non-kin group interactions}}
+[[File:Manner of Francis Wheatley, Giving alms to beggar children.jpg|thumb|180px|Giving alms to beggar children]]
+In the science of [[ethology]] (the study of animal behaviour), and more generally in the study of [[social evolution]], altruism refers to behaviour by an individual that increases the [[fitness (biology)|fitness]] of another individual while decreasing the fitness of the actor.&lt;ref name=&quot;Bell2008&quot;&gt;{{cite book| last = Bell| first = Graham| title = Selection: the mechanism of evolution| year = 2008| publisher = Oxford University Press| location = Oxford| isbn = 0-19-856972-6| pages = 367–368 }}&lt;/ref&gt; In [[evolutionary psychology]] this may be applied to a wide range of human behaviors such as charity, emergency aid, help to coalition partners, [[tipping]], courtship gifts, production of [[public good]]s, and [[environmentalism]].&lt;ref name=&quot;AEP1&quot;&gt;Pat Barcaly. The evolution of charitable behaviour and the power of reputation. In {{cite doi|10.1093/acprof:oso/9780199586073.001.0001|noedit}}&lt;/ref&gt; 
+
+Theories of apparently altruistic behavior were accelerated by the need to produce theories compatible with evolutionary origins. Two related strands of research on altruism have emerged from traditional evolutionary analyses and from [[game theory]].
+
+Some of the proposed mechanisms are:
+* [[Kin selection]].&lt;ref&gt;{{cite web|title=Biological Altruism|url=http://plato.stanford.edu/entries/altruism-biological/#2|work=Stanford Encyclopedia of Philosophy|last=Okasha|first=Samir|accessdate=13 May 2011}}&lt;/ref&gt; That animals and humans are more altruistic towards close kin than to distant kin and non-kin has been confirmed in numerous studies across many different cultures. Even subtle cues indicating kinship may unconsciously increase altruistic behavior. One kinship cue is facial resemblance. One study found that slightly altering photographs so that they more closely resembled the faces of study participants increased the trust the participants expressed regarding depicted persons. Another cue is having the same family name, especially if rare, and this has been found to increase helping behavior. Another study found more cooperative behavior the greater the number the perceived kin in a group. Using kinship terms in political speeches increased audience agreement with the speaker in one study. This effect was especially strong for firstborns, who are typically close to their families.&lt;ref name=AEP1/&gt;
+* Vested interests. People are likely to suffer if their friends, allies, and similar social [[ingroup]]s suffer or even disappear. Helping such group members may therefore eventually benefit the altruist. Making ingroup membership more noticeable increases cooperativeness. Extreme self-sacrifice towards the ingroup may be adaptive if a hostile [[Ingroups and outgroups|outgroup]] threatens to kill the entire ingroup.&lt;ref name=AEP1/&gt;
+* [[Reciprocal altruism]].&lt;ref&gt;{{cite journal|doi=10.1086/406755|last1=Trivers|first1=R.L.|year=1971|title=The evolution of reciprocal altruism|journal=Quarterly Review of Biology|volume=46|pages=35–57}}&lt;/ref&gt; See also [[Reciprocity (evolution)]].
+:* Direct [[Reciprocity (social psychology)|reciprocity]].&lt;ref&gt;{{cite journal|doi=10.1126/science.7466396|author=R Axelrod and WD Hamilton|title=The evolution of cooperation|journal=[[Science (journal)|Science]]|volume=211|issue=4489|month=March|year=198|pages=1390–1396 |pmid=7466396|bibcode = 1981Sci...211.1390A }}&lt;/ref&gt; Research shows that it can be beneficial to help others if there is a chance that they can and will reciprocate the help. The effective [[tit for tat]] strategy is one [[game theory|game theoretic]] example. Many people seem to be following a similar strategy by cooperating if and only if others cooperate in return.&lt;ref name=AEP1/&gt;
+
+::One consequence is that people are more cooperative if it is more likely that individuals will interact again in the future. People tend to be less cooperative if they perceive that the frequency of helpers in the population is lower. They tend to help less if they see non-cooperativeness by others and this effect tend to be stronger than the opposite effect of seeing cooperative behaviors. Simply changing the cooperative framing of a proposal may increase cooperativeness such as calling it a &quot;Community Game&quot; instead of a &quot;Wall Street Game.&quot;&lt;ref name=AEP1/&gt;
+
+::A tendency towards reciprocity implies that people will feel obligated to respond if someone helps them. This has been used by charities that give small gifts to potential donors hoping thereby to induce reciprocity. Another method is to announce publicly that someone has given a large donation. The tendency to reciprocate can even generalize so people become more helpful toward others in general after being helped. On the other hand, people will avoid or even retaliate against those perceived not to be cooperating. People sometimes mistakenly fail to help when they intended to, or their helping may not be noticed, which may cause unintended conflicts. As such, it may be an optimal strategy to be slightly forgiving of and have a slightly generous interpretation of non-cooperation.&lt;ref name=AEP1/&gt;
+
+::People are more likely to cooperate on a task if they can communicate with one another first. This may be due to better assessments of cooperativeness or due to exchange of promises. They are more cooperative if they can gradually build trust, instead of being asked to give extensive help immediately. Direct reciprocity and cooperation in a group can be increased by changing the focus and incentives from intra-group competition to larger scale competitions such as between groups or against the general population. Thus, giving grades and promotions based only on an individual's performance relative to a small local group, as is common, may reduce cooperative behaviors in the group.&lt;ref name=AEP1/&gt;
+:* Indirect reciprocity.&lt;ref&gt;{{cite journal|doi=10.1038/nature04131|author=Martin Nowak &amp; Karl Sigmund|title=Evolution of indirect reciprocity|journal=[[Nature (journal)|Nature]]|volume=437|issue=27|month=October|year=2005|pages=1291–1298|pmid=16251955|bibcode = 2005Natur.437.1291N }}&lt;/ref&gt; The avoidance of poor reciprocators and cheaters causes a person's [[reputation]] to become very important. A person with a good reputation for reciprocity have a higher chance of receiving help even from persons they have had no direct interactions with previously.&lt;ref name=AEP1/&gt;
+:* [[Strong reciprocity]].&lt;ref&gt;{{cite journal|author=[[Herbert Gintis]]|title=Strong Reciprocity and Human Sociality|journal=[[Journal of Theoretical Biology]]|volume=206|issue=2|month=September|year=2000|pmid=10966755|pages=169–179|doi=10.1006/jtbi.2000.2111}}&lt;/ref&gt; A form of reciprocity where some individuals seem to spend more resources on cooperating and punishing than would be most beneficial as predicted by several established theories of altruism. A number of theories have been proposed as explanations as well as criticisms regarding its existence.
+:* Pseudo-reciprocity.&lt;ref&gt;{{cite journal|year=2003|title=Genetic and Cultural Evolution of Cooperation, Chapter 11|isbn=0-262-08326-4|publisher=Dahlem Workshop Reports|location=Berlin}}&lt;/ref&gt; An organism behaves altruistically and the recipient does not reciprocate but has an increased chance of acting in a way that is selfish but also as a byproduct benefits the altruist.
+* [[Signalling theory|Costly signaling]] and the [[handicap principle]].&lt;ref&gt;{{Cite journal|doi=10.2307/3677205|last1=Zahavi|first1=A.|year=1995|title=Altruism as a handicap – The limitations of kin selection and reciprocity|jstor=3677205|journal=Avian Biol|volume=26|issue=1|pages=1–3}}&lt;/ref&gt; Since altruism takes away resources from the altruist it can be an &quot;honest signal&quot; of resource availability and the abilities needed to gather resources. This may signal to others that the altruist is a valuable potential partner. It may also be a signal of interactive and cooperative intentions since those not interacting further in the future gain nothing from the costly signaling. It is unclear if costly signaling can indicate a long-term cooperative personality but people have increased trust for those who help. Costly signaling is pointless if everyone has the same traits, resources, and cooperative intentions but become a potentially more important signal if the population increasingly varies on these characteristics.&lt;ref name=AEP1/&gt;
+
+:Hunters widely sharing the meat has been seen as a costly signal of ability and research has found that good hunters have higher reproductive success and more adulterous relations even if they themselves receive no more of the hunted meat than anyone else. Similarly, holding large feasts and giving large donations has been seen as ways of demonstrating one's resources. Heroic risk-taking has also been interpreted as a costly signal of ability.&lt;ref name=AEP1/&gt;
+
+[[File:FEMA - 15337 - Photograph by Andrea Booher taken on 09-10-2005 in Texas.jpg|thumb|Volunteers assist Hurricane victims at the [[Houston Astrodome]], following Hurricane Katrina.]]
+:Both indirect reciprocity and costly signaling depend on the value of reputation and tend to make similar predictions. One is that people will be more helping when they know that their helping behavior will be communicated to people they will interact with later, is publicly announced, is discussed, or is simply being observed by someone else. This have been documented in many studies. The effect is sensitive to subtle cues such as people being more helpful when there were stylized eyespots instead of a logo on a computer screen. Weak reputational cues such as eyespots may become unimportant if there are stronger cues present and may lose their effect with continued exposure unless reinforced with real reputational effects.&lt;ref name=AEP1/&gt; Public displays such as public weeping for dead celebrities and participation in demonstrations may be influenced by a desire to be seen as altruistic. People who know that they are publicly monitored sometimes even wastefully donate money they know are not needed by recipient which may be because of reputational concerns.&lt;ref name=&quot;AEP2&quot;&gt;Wendy Iredal and Mark van Vugt. Altruism as showing off: a signaling perspective on promoting green behaviour and acts of kindness. In {{cite doi|10.1093/acprof:oso/9780199586073.001.0001|noedit}}&lt;/ref&gt;
+
+:Women have been found to find altruistic men to be attractive partners. When looking for a long-term partner more conventional altruism may be preferred which may indicate that he is also willing to share resources with her and her children while when looking for a short-term partner heroic risk-taking, which may be costly signal showing good genes, may be more preferable. Men also perform more altruistic acts in the early stages of a romantic relationship or simply when in the presence of an attractive woman. While both sexes state that kindness is the most preferable trait in a partner there is some evidence that men place less value on this than women and that women may not be more altruistic in presence of an attractive man. Men may even avoid altruistic women in short-term relationships which may be because they expect less success.&lt;ref name=AEP1/&gt;&lt;ref name=AEP2/&gt;
+
+:People may compete over getting the benefits of a high reputation which may cause [[competitive altruism]]. On other hand, in some experiments a proportion of people do not seem to care about reputation and they do not help more even if this is conspicuous. This may possibly be due to reasons such as [[psychopathy]] or that they are so attractive that they need not be seen to be altruistic. The reputational benefits of altruism occur in the future as compared to the immediate costs of altruism in the present. While humans and other organisms generally place less value on future costs/benefits as compared to those in the present, some have shorter time horizons than others and these people tend to be less cooperative.&lt;ref name=AEP1/&gt;
+
+:Explicit extrinsic rewards and punishments have been found to sometimes actually have opposite effects on behaviors. This may be because such extrinsic, top-down incentives may undermine intrinsic and reputational incentives which overall may make the behaviors less desirable to do. Another effect is that people would like altruism to be due to a personality characteristic rather than due to overt reputational concerns and simply pointing out that there are reputational benefits of an action may actually reduce them. This may possibly be used as derogatory tactic against altruists, especially by those who are non-cooperators. A counterargument is that doing good due to reputational concerns is better than doing no good at all.&lt;ref name=AEP1/&gt;
+* [[Group selection]]. It has controversially been argued by some evolutionary scientists such as [[E. O. Wilson]] that natural selection can act at the level of non-kin groups to produce adaptations that benefit a non-kin group even if these adaptions are detrimental at the individual level. Thus, while altruistic persons may under some circumstances be outcompeted by less altruistic persons at the individual level, according to group selection theory the opposite may occur at the group level where groups consisting of the more altruistic persons may outcompete groups consisting of the less altruistic persons. Such altruism may only extend to ingroup members while there may instead prejudice and antagonism against outgroup members (See also [[in-group favoritism]]). Group selection theory has been criticized by many other evolutionary scientists.&lt;ref&gt;Leon Neyfakh
+Where does good come from?, April 17, 2011, http://www.boston.com/bostonglobe/ideas/articles/2011/04/17/where_does_good_come_from/&lt;/ref&gt;&lt;ref&gt;E. O. Wilson. Biologist E.O. Wilson on Why Humans, Like Ants, Need a Tribe. April 2, 2012. The Daily Beast. http://www.thedailybeast.com/newsweek/2012/04/01/biologist-e-o-wilson-on-why-humans-like-ants-need-a-tribe.html&lt;/ref&gt;
+
+[[File:Helping the homeless.jpg|right|thumb|Helping the homeless in New York City]]
+Such explanations do not imply that humans are always consciously calculating how to increase their [[inclusive fitness]] when they are doing altruistic acts. Instead, evolution has shaped psychological mechanisms, such as emotions, that promote altruistic behaviors.&lt;ref name=AEP1/&gt;
+
+Every single instance of altruistic behavior need not always increase inclusive fitness; altruistic behaviors would have been selected for if such behaviors on average increased inclusive fitness in the ancestral environment. This need not imply that on average 50% or more of altruistic acts were beneficial for the altruist in the ancestral environment; if the benefits from helping the right person were very high it would be beneficial to err on the side of caution and usually be altruistic even if in most cases there were no benefits.&lt;ref name=AEP1/&gt;
+
+The benefits for the altruist may be increased and the costs reduced by being more altruistic towards certain groups. Research has found that people are more altruistic to kin than to no-kin, to friends than to strangers, to those attractive than to those unattractive, to non-competitors than to competitors, and to members ingroups than to members of outgroup.&lt;ref name=AEP1/&gt; 
+
+The study of altruism was the initial impetus behind [[George R. Price]]'s development of the [[Price equation]], which is a mathematical equation used to study genetic evolution. An interesting example of altruism is found in the cellular [[slime mould]]s, such as ''[[Dictyostelid|Dictyostelium]] mucoroides.'' These protists live as individual [[amoebae]] until starved, at which point they aggregate and form a multicellular fruiting body in which some cells sacrifice themselves to promote the survival of other cells in the fruiting body.
+
+Selective investment theory proposes that close social bonds, and associated emotional, cognitive, and neurohormonal mechanisms, evolved in order to facilitate long-term, high-cost altruism between those closely depending on one another for survival and reproductive success.&lt;ref&gt;{{cite journal|doi=10.1207/s15327965pli1701_01|last1=Brown|first1=S.L.|last2=Brown|first2=R.M.|year=2006|title=Selective investment theory: Recasting the functional significance of close relationships|url=http://www.si.umich.edu/ICOS/Brown-Stephanie.pdf|format=PDF|journal=Psychological Inquiry|volume=17|pages=1–29}}{{dead link|date=March 2013}}&lt;/ref&gt;
+
+Such cooperative behaviors have sometimes been seen as arguments for left-wing politics such by the Russian zoologist and anarchist [[Peter Kropotkin]] in his 1902 book ''[[Mutual Aid: A Factor of Evolution]]'' and [[Peter Singer]] in his book ''[[A Darwinian Left]].''
+
+Most recently, [[Jeremy Griffith]] has proposed a biological theory for the development of truly altruistic instincts that accommodates the biological imperative to reproduce, as evidenced by a moral conscience visible in humans today.&lt;ref&gt;Griffith J. 2011. ''Conscience''. In ''The Book of Real Answers to Everything!'' ISBN 9781741290073. http://www.worldtransformation.com/conscience/&lt;/ref&gt;
+
+===Neurobiology===
+Jorge Moll and Jordan Grafman, neuroscientists at the [[National Institutes of Health]] and LABS-D'Or Hospital Network (J.M.) provided the first evidence for the neural bases of altruistic giving in normal healthy volunteers, using [[functional magnetic resonance imaging]]. In their research, published in the [[Proceedings of the National Academy of Sciences]] USA in October, 2006,&lt;ref&gt;Human fronto–mesolimbic networks guide decisions about charitable donation, PNAS 2006:103(42);15623–15628&lt;/ref&gt; they showed that both pure monetary rewards and charitable donations activated the [[Mesolimbic pathway|mesolimbic]] reward pathway, a primitive part of the brain that usually lights up in response to food and sex. However, when volunteers generously placed the interests of others before their own by making charitable donations, another brain circuit was selectively activated: the subgenual cortex/septal region. These structures are intimately related to social attachment and bonding in other species. Altruism, the experiment suggested, was not a superior moral faculty that suppresses basic selfish urges but rather was basic to the brain, hard-wired and pleasurable.&lt;ref name=&quot;brain&quot;&gt;{{cite news
+|url=http://www.washingtonpost.com/wp-dyn/content/article/2007/05/27/AR2007052701056.html
+|title=If It Feels Good to Be Good, It Might Be Only Natural
+|publisher=Washington Post
+|date=May 2007
+|first=Shankar
+|last=Vedantam
+|accessdate=23 April 2010}}&lt;/ref&gt;
+
+Another experiment funded by the [[National Institutes of Health]] and conducted in 2007 at the [[Duke University]] in [[Durham, North Carolina|Durham]], North Carolina suggests a different view, &quot;that altruistic behavior may originate from how people view the world rather than how they act in it.&quot;&lt;ref&gt;[http://www.medicalnewstoday.com/articles/61312.php &quot;Brain Scan Predicts Difference Between Altruistic And Selfish People&quot;]&lt;/ref&gt; In the study published in the February 2007 print issue of [[Nature Neuroscience]], researchers have found a part of the brain that behaves differently for altruistic and selfish people.
+
+The researchers invited 45 volunteers to play a computer game and also to watch the computer play the game. In some rounds, the game resulted in the volunteers winning money for themselves, and in others it resulted in money being donated to a charity of the volunteer's choice. During these activities, the researchers took functional magnetic resonance imaging ([[fMRI]]) scans of the participants' brains and were &quot;surprised by the results&quot;. Although they &quot;were expecting to see activity in the brain's reward centers,&quot; based on the idea that &quot;people perform altruistic acts because they feel good about it,&quot; what they found was that &quot;another part of the brain was also involved, and it was quite sensitive to the difference between doing something for personal gain and doing it for someone else's gain.&quot; That part of the brain is called the posterior superior [[temporal cortex]] (pSTC).
+
+In the next stage, the scientists asked the participants some questions about type and frequency of their altruistic or helping behaviours. They then analysed the responses to generate an estimate of a person's tendency to act altruistically and compared each person's level of altruism against their [[fMRI]] [[brain scan]]. The results showed that pSTC activity rose in proportion to a person's self-reported level of altruism. According to the researchers, the results suggest that altruistic behavior may originate from how people view the world rather than how they act in it. &quot;We believe that the ability to perceive other people's actions as meaningful is critical for altruism,&quot; said lead study investigator Dharol Tankersley.&lt;ref&gt;[http://www.sciencedaily.com/releases/2007/01/070121162756.htm &quot;Activation Of Brain Region Predicts Altruism&quot;]&lt;/ref&gt;
+
+===Psychology===
+The International Encyclopedia of the Social Sciences defines ''psychological altruism'' as &quot;a motivational state with the goal of increasing another’s welfare.&quot; Psychological altruism is contrasted with ''psychological egoism,'' which refers to the motivation to increase one’s own welfare.&lt;ref name=&quot;encyclopedia&quot;&gt;[&quot;Altruism.&quot; International Encyclopedia of the Social Sciences. Ed. William A. Darity, Jr. 2nd ed. Vol. 1. Detroit: Macmillan Reference USA, 2008. 87-88. Gale Virtual Reference Library. Web. 10 April 2012.]&lt;/ref&gt;
+
+There has been some debate on whether or not humans are truly capable of psychological altruism.&lt;ref name=&quot;batson3&quot;&gt;[Batson, C. (2011). Altruism in humans. New York, NY US: Oxford University Press.]&lt;/ref&gt; Some definitions specify a self-sacrificial nature to altruism and a lack of external rewards for altruistic behaviors.&lt;ref name=&quot;prosocial&quot;&gt;[Batson, C. (2012). A history of prosocial behavior research. In A. W. Kruglanski, W. Stroebe, A. W. Kruglanski, W. Stroebe (Eds.) , Handbook of the history of social psychology (pp. 243–264). New York, NY US: Psychology Press.]&lt;/ref&gt; However, because altruism ultimately benefits the self in many cases, the selflessness of altruistic acts is brought to question. The [[social exchange theory]] postulates that altruism only exists when benefits outweigh costs.&lt;ref name=&quot;noaltruism&quot;&gt;[Maner, J. K., Luce, C. L., Neuberg, S. L., Cialdini, R. B., Brown, S., &amp; Sagarin, B. J. (2002). The effects of perspective taking on motivations for helping: Still no evidence for altruism. Personality And Social Psychology Bulletin, 28(11), 1601–1610. doi:10.1177/014616702237586]&lt;/ref&gt; [[Daniel Batson]] is a psychologist who examined this question and argues against the social exchange theory. He identified four major motives for altruism: altruism to ultimately benefit the self (egoism), to ultimately benefit the other person (altruism), to benefit a group (collectivism), or to uphold a moral principle ([[principlism]]). Altruism that ultimately serves selfish gains is thus differentiated from selfless altruism, but the general conclusion has been that empathy-induced altruism can be genuinely selfless.&lt;ref name=&quot; baston2&quot;&gt;[Batson, C., Ahmad, N., &amp; Stocks, E. L. (2011). Four forms of prosocial motivation: Egoism, altruism, collectivism, and principlism. In D. Dunning, D. Dunning (Eds.) , Social motivation (pp. 103–126). New York, NY US: Psychology Press.]&lt;/ref&gt; The ''[[empathy-altruism]] hypothesis'' basically states that psychological altruism does exist and is evoked by the empathic desire to help someone who is suffering. Feelings of empathic concern are contrasted with feelings of personal distress, which compel people to reduce their own unpleasant emotions. People with empathic concern help others in distress even when exposure to the situation could be easily avoided, whereas those lacking in empathic concern avoid helping unless it is difficult or impossible to avoid exposure to another's suffering.&lt;ref name=&quot;encyclopedia&quot;/&gt; Helping behavior is seen in humans at about two years old, when a toddler is capable of understanding subtle emotional cues.&lt;ref&gt;{{cite journal|last1=Svetlova|first1=M.|last2=Nichols|first2=S. R.|last3=Brownell|first3=C. A.|year=2010|title=Toddlers prosocial behavior: From instrumental to empathic to altruistic helping|journal=Child Development|volume=81|issue=6|pages=1814–1827|doi=10.1111/j.1467-8624.2010.01512.x|pmid=21077866|pmc=3088085}}&lt;/ref&gt;
+[[File:Peace Corps Volunteer swearing in Cambodia, 2007.jpg|thumb|240px|[[Peace Corps]] trainees swearing in as volunteers in [[Cambodia]], April 4, 2007]]
+
+In psychological research on altruism, studies often observe altruism as demonstrated through prosocial behaviors such as helping, comforting, sharing, cooperation, philanthropy, and community service.&lt;ref name=&quot;prosocial&quot;/&gt; Research has found that people are most likely to help if they recognize that a person is in need and feel personal responsibility for reducing the person's distress. Research also suggests that the number of bystanders witnessing distress or suffering affects the likelihood of helping (the ''[[Bystander effect]]''). Greater numbers of bystanders decrease individual feelings of responsibility.&lt;ref name=&quot;encyclopedia&quot;/&gt;&lt;ref&gt;Hudson, James M. &amp; Bruckman, Amy S. (2004). &quot;The Bystander Effect: A Lens for Understanding Patterns of Participation&quot;. Journal of the Learning Sciences 13 (2): 165–195. doi:10.1207/s15327809jls1302_2.&lt;/ref&gt; However, a witness with a high level of empathic concern is likely to assume personal responsibility entirely regardless of the number of bystanders.&lt;ref name=&quot;encyclopedia&quot;/&gt;
+
+Many studies have observed the effects of volunteerism (as a form of altruism) on happiness and health and have consistently found a strong connection between volunteerism and current and future health and well-being.&lt;ref name=&quot;volunteer1&quot;&gt;{{cite journal|last1=Musick|first1=M. A.|last2=Wilson|first2=J.|year=2003|title=Volunteering and depression: The role of psychological and social resources in different age groups|journal=Social Science &amp; Medicine|volume=56|issue=2|pages=259–269|doi=10.1016/S0277-9536(02)00025-4}}&lt;/ref&gt;&lt;ref name=&quot;volunteer2&quot;&gt;[Koenig, L. B., McGue, M., Krueger, R. F., &amp; Bouchard, T. r. (2007). Religiousness, antisocial behavior, and altruism: Genetic and environmental mediation. ''Journal Of Personality'', 75(2), 265-290. doi:10.1111/j.1467-6494.2007.00439.x]&lt;/ref&gt; In a study of older adults, those who volunteered were significantly higher on life satisfaction and will to live, and significantly lower in [[Depression (mood)|depression]], [[anxiety]], and [[somatization]].&lt;ref name=&quot;elderly1&quot;&gt;{{cite journal|last1=Hunter|first1=K. I.|last2=Linn|first2=M. W.|year=1980|title=Psychosocial differences between elderly volunteers and non-volunteers|journal=The International Journal of Aging &amp; Human Development|volume=12|issue=3|pages=205–213|doi=10.2190/0H6V-QPPP-7JK4-LR38}}&lt;/ref&gt; Volunteerism and helping behavior have not only been shown to improve mental health, but physical health and longevity as well.&lt;ref name=&quot;volunteer1&quot;/&gt;&lt;ref name=&quot;volunteer3&quot;&gt;Kayloe, J. C., &amp; Krause, M. (1985). RARE FIND: or The value of volunteerism. Psychosocial Rehabilitation Journal, 8(4), 49-56.&lt;/ref&gt;&lt;ref name=&quot;volunteer4&quot;&gt;{{cite journal|last1=Brown|first1=S. L.|last2=Brown|first2=R.|last3=House|first3=J. S.|last4=Smith|first4=D. M.|year=2008|title=Coping with spousal loss: Potential buffering effects of self-reported helping behavior|journal=Personality and Social Psychology Bulletin|volume=34|issue=6|pages=849–861|doi=10.1177/0146167208314972|pmid=18344495}}&lt;/ref&gt;&lt;ref name=&quot;volunteer5&quot;&gt;{{cite journal|last1=Post|first1=S. G.|year=2005|title=Altruism, Happiness, and Health: It's Good to Be Good|journal=International Journal of Behavioral Medicine|volume=12|issue=2|pages=66–77|doi=10.1207/s15327558ijbm1202_4|pmid=15901215}}&lt;/ref&gt; One study examined the physical health of mothers who volunteered over a 30-year period and found that 52% of those who did not belong to a volunteer organization experienced a major illness while only 36% of those who did volunteer experienced one.&lt;ref name=&quot;volunteer6&quot;&gt;{{cite journal|last1=Moen|first1=P.|last2=Dempster-McClain|first2=D.|last3=Williams|first3=R. M.|year=1992|title=Successful aging: A life-course perspective on women's multiple roles and health|journal=American Journal of Sociology|volume=97|issue=6|pages=1612–1638|doi=10.1086/229941}}&lt;/ref&gt; A study on adults ages 55+ found that during the four-year study period, people who volunteered for two or more organizations had a 63% lower likelihood of dying. After controlling for prior health status, it was determined that volunteerism accounted for a 44% reduction in mortality.&lt;ref name=&quot;volunteer7&quot;&gt;{{cite journal|last1=Oman|first1=D.|last2=Thoresen|first2=C. E.|last3=McMahon|first3=K.|year=1999|title=Volunteerism and mortality among the community-dwelling elderly|journal=Journal of Health Psychology|volume=4|issue=3|pages=301–316|doi=10.1177/135910539900400301|pmid=22021599}}&lt;/ref&gt; Merely being aware of kindness in oneself and others is also associated with greater well-being. A study that asked participants to count each act of kindness they performed for one week significantly enhanced their subjective happiness.&lt;ref name=&quot;countingkindness&quot;&gt;{{cite journal|last1=Otake|first1=K.|last2=Shimai|first2=S.|last3=Tanaka-Matsumi|first3=J.|last4=Otsui|first4=K.|last5=Fredrickson|first5=B. L.|year=2006|title=Happy people become happier through kindness: A counting kindnesses intervention|journal=Journal of Happiness Studies|volume=7|issue=3|pages=361–375|doi=10.1007/s10902-005-3650-z|pmid=17356687|pmc=1820947}}&lt;/ref&gt;
+It is important to note that, while research supports the idea that altruistic acts bring about happiness, it has also been found to work in the opposite direction—that happier people are also kinder. The relationship between altruistic behavior and happiness is bidirectional. Studies have found that generosity increases linearly from sad to happy affective states.&lt;ref name=&quot;moodandgenerosity&quot;&gt;{{cite journal|last1=Underwood|first1=B.|last2=Froming|first2=W. J.|last3=Moore|first3=B. S.|year=1977|title=Mood, attention, and altruism: A search for mediating variables|journal=Developmental Psychology|volume=13|issue=5|pages=541–542|doi=10.1037/0012-1649.13.5.541}}&lt;/ref&gt; Studies have also been careful to note that feeling over-taxed by the needs of others has conversely negative effects on health and happiness.&lt;ref name=&quot;volunteer5&quot;/&gt; For example, one study on volunteerism found that feeling overwhelmed by others' demands had an even stronger negative effect on mental health than helping had a positive one (although positive effects were still significant).&lt;ref name=&quot;overwhelmed&quot;&gt;{{cite journal|last1=Schwartz|first1=C.|last2=Meisenhelder|first2=J.|last3=Ma|first3=Y.|last4=Reed|first4=G.|year=2003|title=Altruistic Social Interest Behaviors Are Associated With Better Mental Health|journal=Psychosomatic Medicine|volume=65|issue=5|pages=778–785|doi=10.1097/01.PSY.0000079378.39062.D4|pmid=14508020}}&lt;/ref&gt; Additionally, while generous acts make people feel good about themselves, it is also important for people to appreciate the kindness they receive from others. Studies suggest that gratitude goes hand-in-hand with kindness and is also very important for our well-being. A study on the relationship happiness to various character strengths showed that “a conscious focus on gratitude led to reductions in negative affect and increases in optimistic appraisals, positive affect, offering emotional support, sleep quality, and well-being.”&lt;ref name=&quot;gratitude&quot;&gt;{{cite journal|last1=Shimai|first1=S.|last2=Otake|first2=K.|last3=Park|first3=N.|last4=Peterson|first4=C.|last5=Seligman|first5=M. P.|year=2006|title=Convergence of character strengths in American and Japanese young adults|journal=Journal of Happiness Studies|volume=7|issue=3|pages=311–322|doi=10.1007/s10902-005-3647-7}}&lt;/ref&gt;
+
+===Sociology===
+&quot;Sociologists have long been concerned with how to build the good society&quot; (&quot;Altruism, Morality, and Social Solidarity&quot;. American Sociological Association.&lt;ref&gt;[http://www.asanet.org/sections/altruism.cfm American Sociological Association: Altruism, Morality and Social Solidarity&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;). The structure of our societies and how individuals come to exhibit charitable, philanthropic, and other pro-social, altruistic actions for the common good is a largely researched topic within the field. The American Sociology Association (ASA) acknowledges [[Public sociology]] saying, &quot;The intrinsic scientific, policy, and public relevance of this field of investigation in helping to construct 'good societies' is unquestionable&quot; (&quot;Altruism, Morality, and Social Solidarity&quot; ASA). This type of sociology seeks contributions that aid grassroots and theoretical understandings of what motivates altruism and how it is organized, and promotes an altruistic focus in order to benefit the world and people it studies.  How altruism is framed, organized, carried out, and what motivates it at the group level is an area of focus that sociologists seek to investigate in order to contribute back to the groups it studies and &quot;build the good society&quot;. 
+
+{{See also|Public sociology}}
+
+==Religious viewpoints==
+{{See also|Evolutionary origin of religions}}
+Most, if not all, of the world's [[religion]]s promote altruism as a very important moral value. [[Buddhism]], [[Christianity]], [[Hinduism]], [[Islam]], [[Jainism]], [[Judaism]] and [[Sikhism]], etc., place particular emphasis on altruistic morality.
+
+===Buddhism===
+[[File:Monks collecting alms - Bun Vat Phu.JPG|thumb|Monks collecting alms]]
+Altruism figures prominently in Buddhism. Love and compassion are components of all forms of Buddhism, and are focused on all beings equally: love is the wish that all beings be happy, and compassion is the wish that all beings be free from suffering. &quot;Many illnesses can be cured by the one medicine of love and compassion. These qualities are the ultimate source of human happiness, and the need for them lies at the very core of our being&quot; (Dalai Lama).&lt;ref name=&quot;Speech by the Dalai Lama&quot;&gt;[http://www.dalailama.com/page.65.htm Speech by the Dalai Lama]&lt;/ref&gt;
+
+Since &quot;all beings&quot; includes the individual, love and compassion in Buddhism are outside the opposition between self and other. It is even said that the distinction between self and other is part of the root cause of our suffering. In practical terms, however, since most of us are spontaneously self-centered, Buddhism encourages us to focus love and compassion on others, and thus can be characterized as &quot;altruistic.&quot; Many would agree with the [[Dalai Lama]] that Buddhism as a religion is kindness toward others.
+
+Still, the notion of altruism is modified in such a world-view, since the belief is that such a practice promotes our own happiness: &quot;The more we care for the happiness of others, the greater our own sense of well-being becomes&quot; (Dalai Lama&lt;ref name=&quot;Speech by the Dalai Lama&quot;/&gt;).
+
+In the context of larger ethical discussions on moral action and judgment, Buddhism is characterized by the belief that negative (unhappy) consequences of our actions derive not from punishment or correction based on moral judgment, but from the law of karma, which functions like a natural law of cause and effect. A simple illustration of such cause and effect is the case of experiencing the effects of what I cause: if I cause suffering, then as a natural consequence I will experience suffering; if I cause happiness, then as a natural consequence I will experience happiness.
+
+{{Main|Karma in Buddhism}}
+In Buddhism, ''karma'' (Pāli ''kamma'') is strictly distinguished from '''''[[vipaka|vipāka]]''''', meaning &quot;fruit&quot; or &quot;result&quot;. Karma is categorized within the group or groups of cause (Pāli ''hetu'') in the [[Twelve nidanas|chain]] of [[Pratitya-samutpada|cause and effect]], where it comprises the elements of &quot;volitional activities&quot; (Pali ''sankhara'') and &quot;action&quot; (Pali ''bhava''). Any action is understood to create &quot;seeds&quot; in the mind that sprout into the appropriate results (Pāli ''vipaka'') when they meet the right conditions. Most types of karmas, with good or bad results, will keep one in the wheel of [[Samsara (Buddhism)|samsāra]]; others will liberate one to [[nirvana|nirvāna]].
+
+Buddhism relates karma directly to motives behind an action. Motivation usually makes the difference between &quot;good&quot; and &quot;bad&quot;, but motivation also includes the aspect of ignorance; so a well-intended action from an ignorant mind can easily be &quot;bad&quot; in that it creates unpleasant results for the &quot;actor.&quot;
+
+In Buddhism, karma is not the only cause of all that happens. As taught in the early texts, the commentarial tradition classified causal mechanisms governing the universe in five categories, known as Niyama Dhammas:&lt;ref&gt;{{cite book| last = Davids| first = Rhys| title = Buddhism| url = http://books.google.com/?id=LljcZ_LBeL0C&amp;pg=PA119| year = 2007| publisher = Lightning Source Incorporated| isbn = 978-1-4067-5628-9| page = 119 }}&lt;/ref&gt;&lt;ref&gt;{{cite book| author = Padmasiri de Silva| title = Environmental Philosophy and Ethics in Buddhism| url = http://books.google.com/?id=M4T3C6ndfZIC&amp;pg=PA41| year = 1998| publisher = Palgrave Macmillan| isbn = 978-0-312-21316-9| page = 41 }}&lt;/ref&gt;
+
+* Kamma Niyama — Consequences of one's actions
+* Utu Niyama — Seasonal changes and climate
+* Biija Niyama — Laws of heredity
+* Citta Niyama — Will of mind
+* Dhamma Niyama — Nature's tendency to produce a perfect type
+
+===Jainism===
+The fundamental principles of [[Jainism]] revolve around the concept of altruism, not only for humans but for all sentient beings. Jainism preaches the view of [[Ahimsa]] – to live and let live, thereby not harming sentient beings, i.e. uncompromising reverence for all life. It also considers all living things to be equal. The first Thirthankar, Rishabh introduced the concept of altruism for all living beings, from extending knowledge and experience to others to donation, giving oneself up for others, non-violence and compassion for all living things.
+
+Jainism prescribes a path of non-violence to progress the soul to this ultimate goal. Jains believe that to attain enlightenment and ultimately liberation, one must practice the following ethical principles (major vows) in thought, speech and action. The degree to which these principles are practiced is different for householders and monks. They are:
+# Non-violence (Ahimsa);
+# Truthfulness (Satya);
+# Non-stealing (Asteya);
+# Celibacy (Brahmacharya);
+# Non-possession or non-materialism (Aparigraha);
+
+A major characteristic of Jain belief is the emphasis on the consequences of not only physical but also mental behaviors. One's unconquered mind with anger, pride (ego), deceit, greed and uncontrolled sense organs are the powerful enemies of humans. Anger spoils good relations, pride destroys humility, deceit destroys peace and greed destroys everything. Jainism recommends conquering anger by forgiveness, pride (ego) by humility, deceit by straight-forwardness and greed by contentment.
+
+The principle of non-violence seeks to minimize karmas which limit the capabilities of the soul. Jainism views every soul as worthy of respect because it has the potential to become Siddha (Param-atma – &quot;highest soul&quot;). Because all living beings possess a soul, great care and awareness is essential in one's actions. Jainism emphasizes the equality of all life, advocating harmlessness towards all, whether the creatures are great or small. This policy extends even to microscopic organisms. Jainism acknowledges that every person has different capabilities and capacities to practice and therefore accepts different levels of compliance for ascetics and householders. The &quot;great vows&quot; (mahavrata) are prescribed for monks and &quot;limited vows&quot; (anuvrata) are prescribed for householders. In other words, the house-holders are encouraged to practice the five cardinal principles of non-violence, truthfulness, non-stealing, celibacy and non-possessiveness with their current practical limitations while the monks have to observe them very strictly. With consistent practice, it will be possible to overcome the limitations gradually, accelerating the spiritual progress.
+
+===Christianity===
+[[File:StThomasMount Theresa.JPG|thumb|180px|Statue of [[Mother Teresa]] in India]]
+Altruism is central to the teachings of [[Jesus]] found in the [[Gospel]], especially in the [[Sermon on the Mount]] and the [[Sermon on the Plain]]. From biblical to medieval [[Christian traditions]], tensions between self-affirmation and other-regard were sometimes discussed under the heading of &quot;disinterested love&quot;, as in the [[Paul the Apostle|Pauline]] phrase &quot;love seeks not its own interests.&quot; In his book ''Indoctrination and Self-deception,'' Roderick Hindery tries to shed light on these tensions by contrasting them with impostors of authentic self-affirmation and altruism, by analysis of other-regard within creative individuation of the self, and by contrasting love for the few with love for the many. Love confirms others in their freedom, shuns propaganda and masks, assures others of its presence, and is ultimately confirmed not by mere declarations from others, but by each person's experience and practice from within. As in practical arts, the presence and meaning of love becomes validated and grasped not by words and reflections alone, but in the making of the connection.
+
+[[St Thomas Aquinas]] in the ''[[Summa Theologica]]'', II:II Quaestio 25, Article 4 states that we should love our neighbour more than our ourselves. His interpretation of the Pauline phrase is that we should seek the common good more than the private good, but this is because the common good is a more desirable good for the individual. St Thomas interprets 'You should love your neighbour as yourself' from [[Leviticus]] 19 and Matthew 22 as meaning that love for ourselves is the exemplar of love for others. However, he thinks we should love God more than ourselves and our neighbours, and more than our bodily life—since the ultimate purpose of loving our neighbour is to share in eternal beatitude: a more desirable thing than bodily well being. In coining the word Altruism, as stated above, [[Auguste Comte|Comte]] was probably opposing this Thomistic doctrine, which is present in some theological schools within [[Catholic Church|Catholicism]].
+
+Many biblical authors draw a strong connection between love of others and love of God. 1 John 4 states that for one to love God one must love his fellowman, and that hatred of one's fellowman is the same as hatred of God. [[Thomas Jay Oord]] has argued in several books that altruism is but one possible form of love. An altruistic action is not always a loving action. Oord defines altruism as acting for the other's good, and he agrees with feminists who note that sometimes love requires acting for one's own good when the other's demands undermine overall well-being.
+
+German philosopher [[Max Scheler]] distinguishes two ways in which the strong can help the weak. One way is a sincere expression of Christian love, &quot;motivated by a powerful feeling of security, strength, and inner salvation, of the invincible fullness of one’s own life and existence&quot;.&lt;ref&gt;{{cite book|last=Scheler|first=Max|title=Ressentiment|year=1961|pages=88–89}}&lt;/ref&gt; Another way is merely &quot;one of the many modern substitutes for love, ... nothing but the urge to turn away from oneself and to lose oneself in other people’s business.&quot;&lt;ref&gt;{{cite book|last=Scheler|first=Max|title=Ressentiment|year=1961|pages=95–96}}&lt;/ref&gt; At its worst, Scheler says, &quot;love for the small, the poor, the weak, and the oppressed is really disguised hatred, repressed envy, an impulse to detract, etc., directed against the opposite phenomena: wealth, strength, power, largesse.&quot;&lt;ref&gt;{{cite book|last=Scheler|first=Max|title=Ressentiment|year=1961|pages=96–97}}&lt;/ref&gt;
+
+===Islam and Sufism===
+In [[Sufism]], the concept 'īṯār' (altruism) is the notion of 'preferring others to oneself'. For Sufis, this means devotion to others through complete forgetfulness of one's own concerns. The importance lies in sacrifice for the sake of the greater good; [[Islam]] considers those practicing īṯār as abiding by the highest degree of nobility.&lt;ref&gt;{{cite book| last = M| title = Key Concepts in the Practice of Sufism: Emerald Hills of the Heart| year = 2004| publisher = Fountain| location = Rutherford, N.J.| isbn = 1-932099-75-1| pages = 10–11 }}&lt;/ref&gt;
+This is similar to the notion of chivalry, but unlike that European concept, in i'thar attention is focused on everything in existence. A constant concern for [[Allah]] (i.e. [[God]]) results in a careful attitude towards people, animals, and other things in this world.&lt;ref name=&quot;Neusner2005&quot;&gt;{{cite book| last = Neusner| first = Jacob Eds| title = Altruism in World Religions| year = 2005| publisher = Georgetown Univ. Press| location = Washington, D.C.| isbn = 1-58901-065-5| pages = 79–80 }}&lt;/ref&gt;
+This concept was emphasized by Sufi mystics like [[Rabia al-Adawiyya]] who paid attention to the difference between dedication to [[Allah]] (i.e. [[God]]) and dedication to people. Thirteenth-century Turkish sufi poet [[Yunus Emre]] explained this philosophy as &quot;Yaratılanı severiz, Yaratandan ötürü&quot; or ''We love the creature, because of The Creator.'' For many Muslims, i'thar must be practiced as a religious obligation during specific Islamic holidays. However, i'thar is also still an Islamic ideal to which all Muslims should strive to adhere at all times.
+
+===Judaism===
+Judaism defines altruism as the desired goal of creation. The famous Rabbi [[Abraham Isaac Kook]] stated that love is the most important attribute in humanity.&lt;ref&gt;{{cite book| coauthors = Ben Zion Bokser| last = Kook| first = Abraham Isaac| title = Abraham Isaac Kook: The lights of penitence, The moral principles, Lights of holiness, essays, letters, and poems| year = 1978| publisher = Paulist Press| isbn = 978-0-8091-2159-5| pages = 135–136 }}&lt;/ref&gt; This is defined as [[Corporate welfare|bestowal]], or giving, which is the intention of altruism. This can be altruism towards humanity that leads to altruism towards the creator or [[God]]. [[Kabbalah]] defines [[God]] as the force of giving in [[existence]]. Rabbi [[Moshe Chaim Luzzatto]] in particular focused on the 'purpose of creation' and how the will of [[God]] was to bring creation into perfection and adhesion with this upper force.&lt;ref&gt;{{cite book| last = Luzzatto| first = Moshe Ḥayyim| title = The way of God| year = 1997| publisher = Feldheim Publishers| isbn = 978-0-87306-769-0| pages = 37–38 }}&lt;/ref&gt;
+
+Modern Kabbalah developed by Rabbi [[Yehuda Ashlag]], in his writings about the future generation, focuses on how society could achieve an altruistic social framework.&lt;ref&gt;{{cite book| last = Ashlag| first = Yehuda| title = Building the Future Society| url = http://www.kabbalah.info/eng/content/view/frame/3811?/eng/content/view/full/3811&amp;main| year = 2006| publisher = Laitman Kabbalah Publishers| location = Thornhill, Canada| isbn = 965-7065-34-8| pages = 120–130 }}&lt;/ref&gt; Ashlag proposed that such a framework is the purpose of creation, and everything that happens is to raise humanity to the level of altruism, love for one another. Ashlag focused on society and its relation to [[divinity]].&lt;ref&gt;{{cite book| last = Ashlag| first = Yehuda| title = Building the Future Society| url = http://www.kabbalah.info/eng/content/view/frame/3811?/eng/content/view/full/3811&amp;main| year = 2006| publisher = Laitman Kabbalah Publishers| location = Thornhill, Canada| isbn = 965-7065-34-8| pages = 175–180 }}&lt;/ref&gt;
+
+===Sikhism===
+Altruism is essential to the Sikh religion. 
+The central faith in Sikhism is that the greatest deed any one can do is to imbibe and live the godly qualities like love, affection, sacrifice, patience, harmony, truthfulness.
+The fifth Nanak, Guru Arjun Dev Sacrificed his life to uphold 22 Carats of pure truth, the greatest gift to humanity, the Guru Granth. The Ninth Nanak, Guru Tegh Bahadur Sacrificed his head to protect weak and defenseless people against atrocity. In the late 17th century, [[Guru Gobind Singh]] Ji (the tenth [[guru]] in Sikhism), was in war with the [[Moghul]] rulers to protect the people of different faiths, when a fellow Sikh, [[Bhai Kanhaiya]], attended the troops of the enemy. He gave water to both friends and foes who were wounded on the battlefield. Some of the enemy began to fight again and some Sikh warriors were annoyed by Bhai Kanhaiya as he was helping their enemy. Sikh soldiers brought Bhai Kanhaiya before Guru Gobind Singh Ji, and complained of his action that they considered counterproductive to their struggle on the battlefield.
+&quot;What were you doing, and why?&quot; asked the Guru. &quot;I was giving water to the wounded because I saw your face in all of them,&quot; replied Bhai Kanhaiya.
+The Guru responded, &quot;Then you should also give them ointment to heal their wounds. You were practicing what you were coached in the house of the Guru.&quot;
+
+It was under the tutelage of the Guru that Bhai Kanhaiya subsequently founded a volunteer corps for altruism. This volunteer corps still to date is engaged in doing good to others and trains new volunteering recruits for doing the same.&lt;ref&gt;{{cite book| author = O. P. Ralhan| title = The great gurus of the Sikhs| year = 1997| publisher = Anmol Publications Pvt Ltd.| location = New Delhi| isbn = 81-7488-479-3| page = 253 }}&lt;/ref&gt;
+
+===Hinduism===
+[[Advaita Vedanta]] differs from the view that karma is a law of cause and effect but instead additionally hold that karma is mediated by the will of a personal supreme god. This view of karma is in contradiction to [[Buddhism]], [[Jainism]] and other [[Indian religions]] that do view karma as a law of cause and effect.
+
+[[Swami Sivananda]], an [[Advaita]] scholar, reiterates the same views in his commentary synthesising Vedanta views on the [[Brahma Sutras]], a Vedantic text. In his commentary on Chapter 3 of the Brahma Sutras, Sivananda notes that karma is insentient and short-lived, and ceases to exist as soon as a deed is executed. Hence, karma cannot bestow the fruits of actions at a future date according to one's merit. Furthermore, one cannot argue that karma generates [[apurva]] or [[Merit (Buddhism)|punya]], which gives fruit. Since apurva is non-sentient, it cannot act unless moved by an intelligent being such as a god. It cannot independently bestow reward or punishment.&lt;ref&gt;Sivananda, Swami. ''Phaladhikaranam, Topic 8'', Sutras 38–41.&lt;/ref&gt;
+
+==Philosophy==
+{{main|Altruism (ethics)}}
+
+There exists a wide range of philosophical views on man's obligations or motivations to act altruistically. Proponents of [[Altruism (ethics)|ethical altruism]] maintain that individuals are morally obligated to act altruistically. The opposing view is [[ethical egoism]], which maintains that moral agents should always act in their own self-interest. Both ethical altruism and ethical egoism contrast with [[utilitarianism]], which is the view that every individual's well-being (including one's own) is of equal moral importance.
+
+A related concept in [[descriptive ethics]] is [[psychological egoism]], the thesis that humans always act in their own self-interest and that true altruism is impossible. [[Rational egoism]] is the view that [[rationality]] consists in acting in one's self-interest (without specifying how this affects one's moral obligations).
+
+==See also==
+{{Div col}}
+* [[Altruria]]
+* [[Charity (practice)]]
+* [[Charitable organization]]
+* [[Effective altruism]]
+* [[Egotism]]
+* [[Empathy]]
+* [[Empathy-altruism]]
+* [[Family economics]]
+* [[Gene-centered view of evolution]]
+* [[Giving Pledge]], pledge by Gates, Buffett and others to donate to charity at least half of their wealth
+* [[Inclusive fitness]]
+* [[Justice (economics)]]
+* [[Group selection]]
+* [[Kin selection]]
+* [[Misanthropy]]
+* [[Mutual aid (organization)|Mutual aid]]
+* [[Philanthropy]]
+* ''[[The Power of Half]]''; how a family came to decide to sell its home, so that it could donate half the proceeds to charity
+* [[Prisoner's dilemma]]
+* [[Prosocial behavior]]
+* [[Random acts of kindness]]
+* [[Reciprocal altruism]]
+* [[Reputation capital]]
+* [[Reverse commons]]
+* [[Selfishness]]
+* [[Social psychology]]
+* [[Solidarity (sociology)]]
+* [[Tit for tat]]
+{{Div col end}}
+
+==References==
+;Notes
+{{Reflist|2}}
+
+;Bibliography
+{{Refbegin|2}}
+* {{cite book| last = Oord| first = Thomas| title = The Altruism Reader| year = 2007| publisher = Templeton Foundation Press| location = Philadelphia| isbn = 978-1-59947-127-3 }}
+* {{cite book| last = Oord| first = Thomas| title = Defining Love| year = 2010| publisher = Brazos Press| location = Grand Rapids| isbn = 1-58743-257-9 }}
+* {{cite book| last = Batson| first = Charles| title = The Altruism Question| year = 1991| publisher = L. Erlbaum, Associates| location = Mahwah| isbn = 978-0-8058-0245-0 }}
+* {{cite doi|10.1126/science.1133755}}
+* {{cite doi|10.1038/nature02043}}
+* [[Auguste Comte|Comte, Auguste]], ''Catechisme positiviste'' (1852) or ''Catechism of Positivism'', tr. R. Congreve, (London: Kegan Paul, 1891)
+* {{cite doi|10.1016/S1053-5357(99)00045-1}}
+* [[Peter Kropotkin|Kropotkin, Peter]], ''[[Mutual Aid: A Factor of Evolution]]'' (1902)
+* {{cite book| last = Oord| first = Thomas| title = Science of Love| year = 2004| publisher = Templeton Foundation Press| location = Philadelphia| isbn = 978-1-932031-70-6 }}
+* [[Nietzsche, Friedrich]], ''[[Beyond Good and Evil]]''
+* [[Pierre-Joseph Proudhon]], ''The Philosophy of Poverty'' (1847)
+* [[Lysander Spooner]], ''Natural Law''
+* [[Matt Ridley]], ''[[The Origins of Virtue]]''
+* Oliner, Samuel P. and Pearl M. Towards a Caring Society: Ideas into Action. West Port, CT: Praeger, 1995.
+* {{cite book| last = Axelrod| first = Robert| title = The Evolution of Cooperation| year = 1984| publisher = Basic Books| location = New York| isbn = 0-465-02121-2 }}
+* {{cite book| last = Dawkins| first = Richard| title = The Selfish Gene| year = 1989| publisher = Oxford University Press| location = Oxford Oxfordshire| isbn = 0-19-286092-5 }}
+* {{cite book|last=Wright|first=Robert|title=The Moral Animal|publisher=Vintage Books|location=New York|year=1995|isbn=0-679-76399-6}}
+* {{cite doi|10.1348/000712606X129213}}
+* Wedekind, C. and Milinski, M. Human Cooperation in the simultaneous and the alternating Prisoner's Dilemma: Pavlov versus Generous Tit-for-tat. ''Evolution'', Vol. 93, pp.&amp;nbsp;2686–2689, April 1996.
+* {{cite doi|10.1007/s12147-002-0024-2}}
+{{Refend}}
+
+==External links==
+{{Wiktionary|altruism}}
+;General
+{{In Our Time|Altruism|p0038x9c|Altruism}}
+* {{cite episode|title=Radiolab: &quot;The Good Show&quot;|url=http://www.radiolab.org/2010/dec/14/|station=WNYC|city=New York|airdate=December 14, 2011|season=9|number=1}}
+;Society
+* [http://altruists.org/215 What is Altruism?] from Altruists International
+;Philosophy and religion
+* [http://www.kabbalah.info/engkab/kabbalah-video-clips/giving-and-receiving &quot;Giving and Receiving&quot;] from ''Kabbalah.info''
+* [http://them.polylog.org/3/fcs-en.htm Selflessness: Toward a Buddhist Vision of Social Justice] by [[Sungtaek Cho]]
+* [http://www.empathy.se/Empathyeng/index.htm Organizes knowledge about empathy/altruism across disciplines]
+;Science
+* {{cite journal|last1=Batson|first1=Dan|last2=Ahmad|first2=Nadia|title=Altruism:Myth or Reality?|journal=The Inquistive Mind: Social Psychology for You|issue=7|editor1-first=Hans|editor1-last=IJzerman|editor2-first=Selin|editor2-last=Kesebir|accessdate=20 June 2011|url=http://beta.in-mind.org/node/211
+}}
+* [http://plato.stanford.edu/entries/altruism-biological/ Biological Altruism] at the [[Stanford Encyclopedia of Philosophy]]
+* [http://www.humboldt.edu/altruism/ The Altruistic Personality and Prosocial Behavior Institute] at [[Humboldt State University]]
+* {{cite journal|author=Dharol Tankersley, C. Jill Stowe &amp; Scott A. Huettel|title=Altruism is associated with an increased neural response to agency|journal=[[Nature (journal)|Nature]]|volume=10|issue=2|pages=150–151|date=21 January 2007|pmid=17237779|doi=10.1038/nn1833|url=http://www.nature.com/neuro/journal/v10/n2/abs/nn1833.html}}
+* [http://ibcsr.org/index.php?option=com_content&amp;view=article&amp;id=114:unraveling-moral-condemnation&amp;catid=25:research-news&amp;Itemid=59 &quot;Unraveling altruism, conscience, and condemnation&quot;]
+
+{{Navboxes
+|title=Articles and topics related to Altruism
+|state=collapsed
+|list1=
+{{Defence mechanisms}}
+{{Philosophy topics}}
+{{Charity}}
+}}
+
+{{Use dmy dates|date=September 2010}}
+
+[[Category:Altruism]]
+[[Category:Core issues in ethics]]
+[[Category:Defence mechanisms]]
+[[Category:Evolution by phenotype]]
+[[Category:Morality]]
+[[Category:Philanthropy]]
+[[Category:Social philosophy]]
+[[Category:Social psychology]]
+[[Category:Auguste Comte]]
+
+{{Link GA|fi}}</text>
+      <sha1>a3yl6to21glyrv2p6wxy397uk125etd</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

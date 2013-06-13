@@ -1,5 +1,7 @@
 ACLOCAL_AMFLAGS = -I m4
 
+SUBDIRS = tests
+
 bin_PROGRAMS = typoscan
 
 typoscan_LDADD = @LIBCURL@

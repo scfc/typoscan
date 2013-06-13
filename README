@@ -9,3 +9,24 @@ is directed to STDERR.
 
 AWB ignores some article parts like <nowiki> tags, so there
 may be false positives.
+
+
+Licence
+=======
+
+typoscan is licensed under the GNU General Public License
+version 3 or later.  You can find a copy of the licence in
+COPYING.
+
+The test data files (tests/*.xml, tests/typos-patterns.wiki)
+are licenced under the Creative Commons
+Attribution-ShareAlike 3.0 Unported License.  You can find a
+copy of the licence at
+http://creativecommons.org/licenses/by-sa/3.0/.
+
+For the article files (tests/*.xml), you can find the list
+of contributors at
+http://en.wikipedia.org/w/index.php?oldid=$REVISIONID where
+$REVISIONID is the value of /page/revision/id.  For
+tests/typos-pattern.wiki, you can find it at
+http://en.wikipedia.org/w/index.php?oldid=559776106.
