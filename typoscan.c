@@ -31,6 +31,9 @@
 struct typo_regex *regexes;
 int regexalloccount, regexcount;
 
+/* Options. */
+int run_verbose = 0;
+
 struct Buffer
 {
   char *buf;
@@ -135,22 +138,19 @@ int main (int argc, char *argv [])
   struct option long_options [] =
   {
     {"help",               no_argument,       NULL, 'h'},
-    {"version",            no_argument,       NULL, 'V'},
     {"typos-pattern-file", required_argument, NULL, 't'},
+    {"verbose",            no_argument,       NULL, 'v'},
+    {"version",            no_argument,       NULL, 'V'},
     {NULL,                 0,                 NULL, 0}
   };
   int c, option_index = 0;
   char *typos_pattern_filename = NULL;
 
-  while ((c = getopt_long (argc, argv, "hVt:", long_options, &option_index)) != - 1)
+  while ((c = getopt_long (argc, argv, "ht:vV", long_options, &option_index)) != - 1)
     switch (c)
       {
         case 'h':
           help ();
-          break;
-
-        case 'V':
-          version ();
           break;
 
         case 't':
@@ -162,6 +162,14 @@ int main (int argc, char *argv [])
 
               return 1;
             }
+          break;
+
+        case 'v':
+          run_verbose = 1;
+          break;
+
+        case 'V':
+          version ();
           break;
 
         default:

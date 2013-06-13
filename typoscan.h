@@ -26,6 +26,9 @@ extern struct typo_regex
 } *regexes;
 extern int regexalloccount, regexcount;
 
+/* Options. */
+extern int run_verbose;
+
 /* Scanner functions. */
 extern int dumpscanner_scan (void);
 extern int typolist_scan_buffer (char *buf, size_t size);
