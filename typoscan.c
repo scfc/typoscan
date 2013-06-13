@@ -19,6 +19,7 @@
  */
 
 #include <curl/curl.h>
+#include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -100,9 +101,68 @@ int gettypolist (const char *URL, struct Buffer *b)
   return 1;
 }
 
+void help (void)
+{
+  puts ("Usage: typoscan [--help] [--version]                                 \n" \
+        "                                                                     \n" \
+        "Retrieve a list of regular expressions from                          \n" \
+        "http://en.wikipedia.org/wiki/WP:AWB/T, read a Wikipedia dump file on \n" \
+        "STDIN and output a list of all page titles that match any of the     \n" \
+        "regular expressions to STDOUT.  Diagnostic output is directed to     \n" \
+        "STDERR.                                                              \n" \
+        "                                                                     \n" \
+        "Report bugs to: tim@tim-landscheidt.de                               \n" \
+        PACKAGE " home page: <http://tools.wmflabs.org/typoscan/>");
+
+  exit (0);
+}
+
+void version (void)
+{
+  puts (PACKAGE_STRING "                                                               \n" \
+        "Copyright (C) 2013 Tim Landscheidt                                            \n" \
+        "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html> \n" \
+        "This is free software: you are free to change and redistribute it.            \n" \
+        "There is NO WARRANTY, to the extent permitted by law.");
+
+  exit (0);
+}
+
 int main (int argc, char *argv [])
 {
   struct Buffer b;
+  static struct option long_options [] =
+  {
+    {"help",    no_argument, NULL, 'h'},
+    {"version", no_argument, NULL, 'V'},
+    {NULL,      0,           NULL, 0}
+  };
+  int c, option_index = 0;
+
+  while ((c = getopt_long (argc, argv, "hV", long_options, &option_index)) != - 1)
+    switch (c)
+      {
+        case 'h':
+          help ();
+          break;
+
+        case 'V':
+          version ();
+          break;
+
+        default:
+          /* Unknown option.  An error message has already
+             been printed by getopt_long (), so we can just
+             exit here.  */
+          return 1;
+      }
+
+  if (optind != argc)
+    {
+      fprintf (stderr, "%s: no arguments allowed\n", argv [0]);
+
+      return 1;
+    }
 
   /* Initialize curl. */
   curl_global_init (CURL_GLOBAL_ALL);
