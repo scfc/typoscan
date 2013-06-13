@@ -87,9 +87,39 @@ static char currentdepot [65536];
 
 <*>.|\n   /* ignore */
 %%
-int typolist_scan (char *buf, size_t size)
+int typolist_scan_buffer (char *buf, size_t size)
 {
   typolist__scan_bytes (buf, size);
+
+  strcpy (currentdepot, "(");
+  regexes = NULL;
+  regexalloccount = regexcount = 0;
+  while (typolist_lex ());
+
+  if (strcmp (currentdepot, "("))
+  {
+    const char *errstr;
+    int erroffset;
+    strcat (currentdepot, ")");
+    /* fprintf (stderr, "Adding regex \"%s\".\n", currentdepot); */
+    regexes [regexcount].regex = pcre_compile (currentdepot, 0, &errstr, &erroffset, NULL);
+    if (!regexes [regexcount].regex)
+    {
+      fprintf (stderr, "Warning2: Couldn't compile pattern, ignoring \"%s\": %d/%s\n", currentdepot, erroffset, errstr);
+      exit (EXIT_FAILURE);
+    }
+    regexes [regexcount].extra = pcre_study (regexes [regexcount].regex, 0, &errstr);
+    if (!regexes [regexcount].extra)
+      fprintf (stderr, "Warning2: Couldn't study pattern \"%s\": %s\n", currentdepot, errstr);
+    regexcount++;
+  }
+
+  return 0;
+}
+
+int typolist_scan_file (FILE *f)
+{
+  typolist_in = f;
 
   strcpy (currentdepot, "(");
   regexes = NULL;

@@ -19,6 +19,7 @@
  */
 
 #include <curl/curl.h>
+#include <errno.h>
 #include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -131,15 +132,17 @@ void version (void)
 int main (int argc, char *argv [])
 {
   struct Buffer b;
-  static struct option long_options [] =
+  struct option long_options [] =
   {
-    {"help",    no_argument, NULL, 'h'},
-    {"version", no_argument, NULL, 'V'},
-    {NULL,      0,           NULL, 0}
+    {"help",               no_argument,       NULL, 'h'},
+    {"version",            no_argument,       NULL, 'V'},
+    {"typos-pattern-file", required_argument, NULL, 't'},
+    {NULL,                 0,                 NULL, 0}
   };
   int c, option_index = 0;
+  char *typos_pattern_filename = NULL;
 
-  while ((c = getopt_long (argc, argv, "hV", long_options, &option_index)) != - 1)
+  while ((c = getopt_long (argc, argv, "hVt:", long_options, &option_index)) != - 1)
     switch (c)
       {
         case 'h':
@@ -148,6 +151,17 @@ int main (int argc, char *argv [])
 
         case 'V':
           version ();
+          break;
+
+        case 't':
+          if (!typos_pattern_filename)
+            typos_pattern_filename = optarg;
+          else
+            {
+              fprintf (stderr, "%s: option --typos-pattern-file given more than once\n", argv [0]);
+
+              return 1;
+            }
           break;
 
         default:
@@ -164,22 +178,50 @@ int main (int argc, char *argv [])
       return 1;
     }
 
-  /* Initialize curl. */
-  curl_global_init (CURL_GLOBAL_ALL);
+  if (typos_pattern_filename)
+    {
+      FILE *f = fopen (typos_pattern_filename, "r");
+      if (!f)
+        {
+          fprintf (stderr,
+                   "%s: Cannot open typos pattern file '%s': %s\n",
+                   argv [0],
+                   typos_pattern_filename,
+                   strerror (errno));
 
-  /* Get typo list. */
-  if (!gettypolist ("http://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/Typos&action=raw", &b))
-  {
-    printf ("Couldn't get typo list.\n");
+          return 1;
+        }
+      typolist_scan_file (f);
+      if (fclose (f))
+        {
+          fprintf (stderr,
+                   "%s: Cannot close typos pattern file '%s': %s\n",
+                   argv [0],
+                   typos_pattern_filename,
+                   strerror (errno));
 
-    return 2;
-  }
+          return 1;
+        }
+    }
+  else
+    {
+      /* Initialize curl. */
+      curl_global_init (CURL_GLOBAL_ALL);
 
-  /* Clean up curl. */
-  curl_global_cleanup ();
+      /* Get typo list. */
+      if (!gettypolist ("http://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/Typos&action=raw", &b))
+      {
+        printf ("Couldn't get typo list.\n");
 
-  /* Parse typo regular expressions. */
-  typolist_scan (b.buf, b.size);
+        return 2;
+      }
+
+      /* Clean up curl. */
+      curl_global_cleanup ();
+
+      /* Parse typo regular expressions. */
+      typolist_scan_buffer (b.buf, b.size);
+    }
 
   /* Match against STDIN. */
   dumpscanner_scan ();

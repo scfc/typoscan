@@ -28,4 +28,5 @@ extern int regexalloccount, regexcount;
 
 /* Scanner functions. */
 extern int dumpscanner_scan (void);
-extern int typolist_scan (char *buf, size_t size);
+extern int typolist_scan_buffer (char *buf, size_t size);
+extern int typolist_scan_file (FILE *f);
