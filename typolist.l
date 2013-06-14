@@ -29,7 +29,6 @@
 #include "typoscan.h"
 
 static char *bufptr, regexbuf [65536];
-static char currentdepot [65536];
 }
 %x IN_REGEX
 %%
@@ -38,9 +37,18 @@ static char currentdepot [65536];
 <IN_REGEX>{
 \"     {
          BUF_NUL(regex);
+
+         /* Copy regular expression string. */
+         char *s = strdup (regexbuf);
+         if (!s)
+           {
+             fputs ("Out of memory.\n", stderr);
+             exit (EXIT_FAILURE);
+           }
+
          if (regexcount == regexalloccount)
          {
-           regexalloccount += 10;
+           regexalloccount += 1000;
            regexes = regexes ? realloc (regexes, sizeof (*regexes) * regexalloccount)
                              : malloc (sizeof (*regexes) * regexalloccount);
            if (!regexes)
@@ -59,28 +67,13 @@ static char currentdepot [65536];
            }
          else
            {
-             free (re);
-
-             if (strcmp (currentdepot, "(") && strlen (currentdepot) + strlen (regexbuf) > 18000)
-             {
-               strcat (currentdepot, ")");
-               /* fprintf (stderr, "Adding regex \"%s\".\n", currentdepot); */
-               regexes [regexcount].regex = pcre_compile (currentdepot, 0, &errstr, &erroffset, NULL);
-               if (!regexes [regexcount].regex)
-               {
-                 fprintf (stderr, "Warning2: Couldn't compile pattern, ignoring \"%s\": %d/%s\n", currentdepot, erroffset, errstr);
-                 exit (EXIT_FAILURE);
-               }
-               regexes [regexcount].extra = pcre_study (regexes [regexcount].regex, 0, &errstr);
-               if (!regexes [regexcount].extra && run_verbose)
-                 fprintf (stderr, "Warning2: Couldn't study pattern \"%s\": %s\n", currentdepot, errstr);
-               regexcount++;
-               strcpy (currentdepot, "(");
-             }
-
-             if (strcmp (currentdepot, "("))
-               strcat (currentdepot, "|");
-             strcat (currentdepot, regexbuf);
+             /* fprintf (stderr, "Adding regex \"%s\".\n", currentdepot); */
+             regexes [regexcount].regex = re;
+             regexes [regexcount].extra = pcre_study (regexes [regexcount].regex, 0, &errstr);
+             if (!regexes [regexcount].extra && run_verbose)
+               fprintf (stderr, "Warning2: Couldn't study pattern \"%s\": %s\n", s, errstr);
+             regexes [regexcount].s = s;
+             regexcount++;
            }
 
          BEGIN(INITIAL);
@@ -94,28 +87,9 @@ int typolist_scan_buffer (char *buf, size_t size)
 {
   typolist__scan_bytes (buf, size);
 
-  strcpy (currentdepot, "(");
   regexes = NULL;
   regexalloccount = regexcount = 0;
   while (typolist_lex ());
-
-  if (strcmp (currentdepot, "("))
-  {
-    const char *errstr;
-    int erroffset;
-    strcat (currentdepot, ")");
-    /* fprintf (stderr, "Adding regex \"%s\".\n", currentdepot); */
-    regexes [regexcount].regex = pcre_compile (currentdepot, 0, &errstr, &erroffset, NULL);
-    if (!regexes [regexcount].regex)
-    {
-      fprintf (stderr, "Warning2: Couldn't compile pattern, ignoring \"%s\": %d/%s\n", currentdepot, erroffset, errstr);
-      exit (EXIT_FAILURE);
-    }
-    regexes [regexcount].extra = pcre_study (regexes [regexcount].regex, 0, &errstr);
-    if (!regexes [regexcount].extra && run_verbose)
-      fprintf (stderr, "Warning2: Couldn't study pattern \"%s\": %s\n", currentdepot, errstr);
-    regexcount++;
-  }
 
   return 0;
 }
@@ -124,28 +98,9 @@ int typolist_scan_file (FILE *f)
 {
   typolist_in = f;
 
-  strcpy (currentdepot, "(");
   regexes = NULL;
   regexalloccount = regexcount = 0;
   while (typolist_lex ());
-
-  if (strcmp (currentdepot, "("))
-  {
-    const char *errstr;
-    int erroffset;
-    strcat (currentdepot, ")");
-    /* fprintf (stderr, "Adding regex \"%s\".\n", currentdepot); */
-    regexes [regexcount].regex = pcre_compile (currentdepot, 0, &errstr, &erroffset, NULL);
-    if (!regexes [regexcount].regex)
-    {
-      fprintf (stderr, "Warning2: Couldn't compile pattern, ignoring \"%s\": %d/%s\n", currentdepot, erroffset, errstr);
-      exit (EXIT_FAILURE);
-    }
-    regexes [regexcount].extra = pcre_study (regexes [regexcount].regex, 0, &errstr);
-    if (!regexes [regexcount].extra && run_verbose)
-      fprintf (stderr, "Warning2: Couldn't study pattern \"%s\": %s\n", currentdepot, errstr);
-    regexcount++;
-  }
 
   return 0;
 }

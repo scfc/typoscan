@@ -23,6 +23,7 @@ extern struct typo_regex
 {
   pcre *regex;
   pcre_extra *extra;
+  const char *s;
 } *regexes;
 extern int regexalloccount, regexcount;
 
