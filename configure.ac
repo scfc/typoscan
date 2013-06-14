@@ -7,13 +7,18 @@ AM_INIT_AUTOMAKE([foreign no-dist color-tests parallel-tests silent-rules -Wall 
 AC_PROG_INSTALL
 
 AC_PROG_CC
+gl_EARLY
 
 AM_PROG_LEX
+
+# For gnulib.
+gl_INIT
 
 # Libraries.
 AC_CHECK_LIB([pcre], [pcre_compile])
 LIBCURL_CHECK_CONFIG()
 
-AC_CONFIG_FILES([Makefile tests/Makefile])
+AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_FILES([Makefile lib/Makefile tests/Makefile])
 
 AC_OUTPUT

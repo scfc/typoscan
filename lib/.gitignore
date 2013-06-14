@@ -1,0 +1,12 @@
+/.deps
+/Makefile
+/Makefile.in
+/errno.h
+/libgnu.a
+/progname.o
+/stddef.h
+/string.h
+/sys/types.h
+/sys_types.h
+/unistd.h
+/unistd.o

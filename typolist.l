@@ -21,10 +21,14 @@
  * <http://www.gnu.org/licenses/>.
  */
 
+#include <config.h>
+
 #include <pcre.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "error.h"
 
 #include "typoscan.h"
 
@@ -41,10 +45,7 @@ static char *bufptr, regexbuf [65536];
          /* Copy regular expression string. */
          char *s = strdup (regexbuf);
          if (!s)
-           {
-             fputs ("Out of memory.\n", stderr);
-             exit (EXIT_FAILURE);
-           }
+           error (EXIT_FAILURE, errno, "out of memory");
 
          if (regexcount == regexalloccount)
          {
@@ -52,10 +53,7 @@ static char *bufptr, regexbuf [65536];
            regexes = regexes ? realloc (regexes, sizeof (*regexes) * regexalloccount)
                              : malloc (sizeof (*regexes) * regexalloccount);
            if (!regexes)
-           {
-             fputs ("Out of memory.\n", stderr);
-             exit (EXIT_FAILURE);
-           }
+             error (EXIT_FAILURE, errno, "out of memory");
          }
          const char *errstr;
          int erroffset;
@@ -63,7 +61,7 @@ static char *bufptr, regexbuf [65536];
          if (!re)
            {
              if (run_verbose)
-               fprintf (stderr, "Warning: Couldn't compile pattern, ignoring \"%s\": %d/%s\n", regexbuf, erroffset, errstr);
+               error (0, 0, "Warning: Couldn't compile pattern, ignoring '%s': %d/%s\n", regexbuf, erroffset, errstr);
            }
          else
            {
@@ -71,7 +69,7 @@ static char *bufptr, regexbuf [65536];
              regexes [regexcount].regex = re;
              regexes [regexcount].extra = pcre_study (regexes [regexcount].regex, 0, &errstr);
              if (!regexes [regexcount].extra && run_verbose)
-               fprintf (stderr, "Warning2: Couldn't study pattern \"%s\": %s\n", s, errstr);
+               error (0, 0, "Warning2: Couldn't study pattern '%s': %s", s, errstr);
              regexes [regexcount].s = s;
              regexcount++;
            }

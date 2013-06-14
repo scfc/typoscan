@@ -21,7 +21,11 @@
  * <http://www.gnu.org/licenses/>.
  */
 
+#include <config.h>
+
 #include <stdio.h>
+
+#include "error.h"
 
 #include "typoscan.h"
 
@@ -60,7 +64,7 @@ static int ns0seen;
                               break;
                             }
                             if (rc != PCRE_ERROR_NOMATCH)
-                              fprintf (stderr, "Error while matching: %d\n", rc);
+                              error (0, 0, "Error while matching: %d\n", rc);
                           }
                         }
                         BEGIN(INITIAL);

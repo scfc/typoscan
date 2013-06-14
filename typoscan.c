@@ -18,12 +18,17 @@
  * <http://www.gnu.org/licenses/>.
  */
 
+#include <config.h>
+
 #include <curl/curl.h>
 #include <errno.h>
 #include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "error.h"
+#include "progname.h"
 
 #include "typoscan.h"
 
@@ -46,11 +51,8 @@ static size_t writememorycallback (void *contents, size_t size, size_t nmemb, vo
   struct Buffer *b = (struct Buffer *) userp;
 
   b->buf = b->buf ? realloc (b->buf, b->size + realsize) : malloc (b->size + realsize);
-  if (!b->buf) {
-    fprintf (stderr, "Not enough memory (realloc returned NULL).\n");
-
-    return 0;
-  }
+  if (!b->buf)
+    error (1, errno, "out of memory");
 
   memcpy (&(b->buf [b->size]), contents, realsize);
   b->size += realsize;
@@ -86,21 +88,14 @@ int gettypolist (const char *URL, struct Buffer *b)
 
   /* Check for errors. */
   if (res != CURLE_OK)
-  {
-    fprintf (stderr, "curl_easy_perform() failed: %s\n",
-             curl_easy_strerror (res));
-    return 0;
-  }
+    error (1, 0, "curl_easy_perform() failed: %s",
+           curl_easy_strerror (res));
 
   /* Check response code. */
   long http_code;
   curl_easy_getinfo (curl_handle, CURLINFO_RESPONSE_CODE, &http_code);
   if (http_code != 200)
-  {
-    fprintf (stderr, "Didn't get 200, but %ld.\n",
-             http_code);
-    return 0;
-  }
+    error (1, 0, "Didn't get 200, but %ld.\n", http_code);
 
   return 1;
 }
@@ -146,6 +141,9 @@ int main (int argc, char *argv [])
   int c, option_index = 0;
   char *typos_pattern_filename = NULL;
 
+  /* Set program name. */
+  set_program_name (argv [0]);
+
   while ((c = getopt_long (argc, argv, "ht:vV", long_options, &option_index)) != - 1)
     switch (c)
       {
@@ -157,11 +155,7 @@ int main (int argc, char *argv [])
           if (!typos_pattern_filename)
             typos_pattern_filename = optarg;
           else
-            {
-              fprintf (stderr, "%s: option --typos-pattern-file given more than once\n", argv [0]);
-
-              return 1;
-            }
+            error (1, 0, "option --typos-pattern-file given more than once");
           break;
 
         case 'v':
@@ -180,36 +174,16 @@ int main (int argc, char *argv [])
       }
 
   if (optind != argc)
-    {
-      fprintf (stderr, "%s: no arguments allowed\n", argv [0]);
-
-      return 1;
-    }
+    error (1, 0, "no arguments allowed");
 
   if (typos_pattern_filename)
     {
       FILE *f = fopen (typos_pattern_filename, "r");
       if (!f)
-        {
-          fprintf (stderr,
-                   "%s: Cannot open typos pattern file '%s': %s\n",
-                   argv [0],
-                   typos_pattern_filename,
-                   strerror (errno));
-
-          return 1;
-        }
+        error (1, errno, "cannot open typos pattern file '%s'", typos_pattern_filename);
       typolist_scan_file (f);
       if (fclose (f))
-        {
-          fprintf (stderr,
-                   "%s: Cannot close typos pattern file '%s': %s\n",
-                   argv [0],
-                   typos_pattern_filename,
-                   strerror (errno));
-
-          return 1;
-        }
+        error (1, errno, "cannot close typos pattern file '%s'", typos_pattern_filename);
     }
   else
     {
@@ -218,11 +192,7 @@ int main (int argc, char *argv [])
 
       /* Get typo list. */
       if (!gettypolist ("http://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/Typos&action=raw", &b))
-      {
-        printf ("Couldn't get typo list.\n");
-
-        return 2;
-      }
+        error (2, 0, "couldn't get typo list");
 
       /* Clean up curl. */
       curl_global_cleanup ();
