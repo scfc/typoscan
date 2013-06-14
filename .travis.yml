@@ -1,0 +1,6 @@
+language: c
+before_script:
+  - autoreconf
+  - ./configure
+  - make
+script: make check
