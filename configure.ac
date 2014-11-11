@@ -15,7 +15,8 @@ AM_PROG_LEX
 gl_INIT
 
 # Libraries.
-AC_CHECK_LIB([pcre], [pcre_compile])
+AC_CHECK_HEADER([pcre.h], , [AC_MSG_ERROR([pcre is required])])
+AC_CHECK_LIB([pcre], [pcre_compile], , [AC_MSG_ERROR([pcre is required])])
 LIBCURL_CHECK_CONFIG([yes], , , [AC_MSG_ERROR([libcurl is required])])
 
 AC_CONFIG_HEADERS([config.h])
