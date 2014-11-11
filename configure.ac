@@ -16,7 +16,7 @@ gl_INIT
 
 # Libraries.
 AC_CHECK_LIB([pcre], [pcre_compile])
-LIBCURL_CHECK_CONFIG()
+LIBCURL_CHECK_CONFIG([yes], , , [AC_MSG_ERROR([libcurl is required])])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile lib/Makefile tests/Makefile])
