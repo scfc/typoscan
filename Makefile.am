@@ -7,6 +7,8 @@ AM_CPPFLAGS = -I$(top_builddir)/lib -I$(top_srcdir)/lib
 EXTRA_DIST = m4/gnulib-cache.m4
 LDADD = lib/libgnu.a
 
+dist_bin_SCRIPTS = process-dump scheduler
+
 bin_PROGRAMS = typoscan
 check_PROGRAMS = typoscan
 

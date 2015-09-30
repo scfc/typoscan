@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+# process-dump -- process a dump file with typoscan
+# Copyright (C) 2015 Tim Landscheidt
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 FILENAME" >&2
+    echo >&2
+    echo 'This will lock FILENAME (basename only, path is implied by the dump' >&2
+    echo 'date) for processing, find all articles with typos and write a list of' >&2
+    echo 'their titles to ~/public_html/FILENAME with the extension replaced by' >&2
+    echo '".txt".' >&2
+    exit 1
+fi
+
+# Abort on errors.
+set -e
+
+filename="$1"
+
+# Create lock directory.
+lockdir=~/var/lib/typoscan/"$filename"
+if ! mkdir "$lockdir"; then
+    echo "$0: Cannot create lock directory $lockdir." >&2
+    exit 1
+fi
+
+# Process dump.
+bzcat < "/public/dumps/public/enwiki/${filename:7:8}/$filename" | typoscan > "$lockdir/typoscan.txt"
+
+# Move output to public location.
+mv -i "$lockdir/typoscan.txt" ~/public_html/"${filename%.xml*}.txt"
+
+# Remove lock directory.
+rmdir "$lockdir"

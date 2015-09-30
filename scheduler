@@ -1,0 +1,43 @@
+#!/bin/bash
+#
+# scheduler -- schedule jobs for missing outputs
+# Copyright (C) 2015 Tim Landscheidt
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+if [ $# -ne 0 ]; then
+    echo "Usage: $0" >&2
+    echo >&2
+    echo 'This will process-dump jobs for all database dumps in the last' >&2
+    echo 'completed enwiki dump that have not already been processed.' >&2
+    exit 1
+fi
+
+# Abort on errors.
+set -e
+
+# Determine last completed enwiki dump.
+dumpdir="$(ls -d /public/dumps/public/enwiki/* | tail -1)"
+
+# Iterate over all dumps.
+for dumpfile in "$dumpdir"/enwiki-*-pages-articles*.xml-*.bz2; do
+    # If there already is an output file or a lock directory for the
+    # input file, disregard the file.
+    if [ -e ~/var/lib/typoscan/"$(basename "$dumpfile")" ] ||
+       [ -e ~/public_html/"$(basename "${dumpfile%.xml*}.txt")" ]; then
+        continue
+    fi
+
+    jsub -N "$(basename "${dumpfile%.xml*}.txt")" -o ~/var/log/typoscan -once process-dump "$(basename "$dumpfile")"
+done
