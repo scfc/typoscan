@@ -191,7 +191,7 @@ int main (int argc, char *argv [])
       curl_global_init (CURL_GLOBAL_ALL);
 
       /* Get typo list. */
-      if (!gettypolist ("http://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/Typos&action=raw", &b))
+      if (!gettypolist ("https://en.wikipedia.org/w/index.php?title=Wikipedia:AutoWikiBrowser/Typos&action=raw", &b))
         error (2, 0, "couldn't get typo list");
 
       /* Clean up curl. */
