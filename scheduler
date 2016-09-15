@@ -39,5 +39,5 @@ for dumpfile in "$dumpdir"/enwiki-*-pages-articles*.xml-*.bz2; do
         continue
     fi
 
-    jsub -N "$(basename "${dumpfile%.xml*}.txt")" -o ~/var/log/typoscan -once process-dump "$(basename "$dumpfile")"
+    jsub -N "$(basename "${dumpfile%.xml*}.txt")" -l release=trusty -o ~/var/log/typoscan -once process-dump "$(basename "$dumpfile")"
 done
